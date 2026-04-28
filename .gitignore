@@ -1,0 +1,81 @@
+# ================= PYTHON =================
+# Байт-компилированные файлы
+__pycache__/
+*.py[cod]
+*.$py.class
+*.pyo
+
+# Распространение / упаковка
+*.egg-info/
+dist/
+build/
+*.egg
+MANIFEST
+
+# Виртуальные окружения
+venv/
+env/
+.venv/
+ENV/
+.pyenv/
+
+# ================= ТЕСТЫ И ПОКРЫТИЕ =================
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+.tox/
+.nox/
+
+# ================= IDE & РЕДАКТОРЫ =================
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm / JetBrains
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Vim / Emacs
+*.swp
+*.swo
+*~
+.netrwhist/
+
+# ================= ОС-ФАЙЛЫ =================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+
+# ================= ПРОЕКТ =================
+# Автогенерируемые данные (не коммитить)
+expenses.json
+test_expenses.json
+*.log
+*.tmp
+*.bak
+
+# Jupyter (на будущее)
+.ipynb_checkpoints/
+
+# Локальные конфиги (если появятся)
+.env
+*.local
